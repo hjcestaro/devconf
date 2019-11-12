@@ -1,0 +1,88 @@
+.header {
+    background: url(../img/Sampa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 32px;
+}
+
+.main-menu {
+    text-align: center;
+}
+
+.lista-menu {
+    display: inline-block;
+    margin: 0px 2px 32px 0px;
+}
+
+.lista-menu a {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lista-menu a:hover{
+    background: #48A3A6;
+    transition: 0.5s;
+}
+
+.header .panel-main {
+    color: white;
+    text-shadow: 4px 4px 10px black;
+  }
+
+.header .panel-main .title {
+    font-size: 48px;
+}
+  
+.header .panel-main .subtitle {
+    color: #64ff64;
+    font-size: 42px;
+    margin-top: 8px;
+}
+
+.header .panel-subscribe {
+    margin-top: 28px;
+}
+
+@media(min-width: 650px) {
+    .header .jumbotron {
+        font-size: 28px;
+    }
+}
+
+.header .jumbotron .title {
+    font-size: 3em; 
+}
+
+.header .jumbotron .subtitle {
+    font-size: 2.6em;
+    color: white;
+    margin-top: 8px;
+}
+
+.panel-about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.panel-about .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.panel-about .subtitle {
+    font-size: 28px;
+}
+
+.panel-about .about-description {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
